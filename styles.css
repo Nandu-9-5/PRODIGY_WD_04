@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center; /* Center the text inside the container */
+}
+
+#home {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#home h1 {
+    margin-bottom: 20px;
+}
+
+#home p {
+    margin-bottom: 15px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+    border: 3px solid #333; /* Optional: Add a border for better visibility */
+}
+
+#skills {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+#about {
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px; /* Added margin to increase spacing */
+}
+
+#about h1 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#education, #experience {
+    text-align: center;
+    margin: 20px 0; /* Added margin to increase spacing */
+    padding: 20px;
+    /* Removed background, border-radius, and box-shadow */
+}
+
+#education {
+    margin-bottom: 50px; /* Added margin to increase spacing */
+}
+
+#experience {
+    margin-bottom: 50px; /* Added margin to increase spacing */
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+/* Additional styles for contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background: #555;
+}
