@@ -23,4 +23,10 @@ This portfolio website is designed to highlight my expertise in web development.
 
 ## Link of the project
 
+https://github.com/Nandu-9-5/PRODIGY_WD_04
+
+## Screenshot of the website
+
+![Screenshot 2024-05-27 132216](https://github.com/Nandu-9-5/PRODIGY_WD_04/assets/168712637/e262b588-d7ce-4a58-9188-a3b7e0b9702f)
+
 
